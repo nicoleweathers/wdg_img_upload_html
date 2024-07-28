@@ -14,7 +14,7 @@ All of my designs are Vanilla because I hate using frameworks. The only time tha
 
 ![](screenshots/file_upload_window.webp)
 
-![](screenshots/gallery_screnshot.webp)
+![](screenshots/gallery_screenshot.webp)
 
 
 # Table of Contents
