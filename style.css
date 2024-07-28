@@ -1,0 +1,114 @@
+/* 
+Creator Credit: Nicole Weathers
+Social: https://www.youtube.com/@webdgem
+GitHub Repo: https://github.com/nicoleweathers/wdg_img_upload_html
+About: This is an html template that goes along with YouTube video made by WeDGem
+*/
+
+
+body{
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(imgs/background.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    min-height: 100vh;
+}
+a{          
+    color: #161616;     
+    padding: 8px 50px;
+    border-radius: 7px;
+    top: 25px;
+}
+form a{
+    background: rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+.homelink a{
+    background: #fff;
+    text-decoration: none;    
+    right: 25px;
+    position: absolute;
+}
+.homelink a:hover{
+    background: #dfdfdf;
+}
+/**#########################################################
+## EVERYTHING BETWEEN THESE COMMENTS IS EXTRA STYLING     ##
+##########################################################**/
+h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+img{
+    border: 1px solid #dfdfdf;
+    border-radius: 7px;
+}
+
+.form_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    border-radius: 7px;
+    border: 2px solid #c8c8c8;
+    padding: 30px 50px 30px 45px;
+}
+form p{
+    text-align:center;
+}
+input[type="text"]{
+    border-radius: 7px;
+    padding: 3px;
+    width: 100%;
+    font-size: 18px;
+}
+button{
+    padding: 10px 50px;
+    border-radius: 7px;
+    background: #161616;
+    color: #fff;
+    cursor: pointer;
+}
+.img_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.img_div img{
+    height: 300px;
+}
+.inline{
+    display: inline;
+}
+.data_imgs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 10px;
+}
+.show_name{
+    margin-top: 0;
+    padding-top: 0;
+    background: #161616;
+    color: #fff;
+    bottom: 15px;
+    position: relative;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+@media (max-width: 800px){
+    .homelink a{
+ 	top: 5px;
+        left: 300px;
+	position: relative;
+
+}
+}

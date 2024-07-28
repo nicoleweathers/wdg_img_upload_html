@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Image Upload Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <div class="form_container">
+        <h1>Upload Image To Image Directory</h1>
+        <form action="" method="post" autocomplete="off" enctype="multipart/form-data">
+            <label for="image">Image: </label>
+            <input type="file" name="image" accept=".jpg, .jpeg, .png, .gif, .webp, .svg, .ico" value=""><br><br>
+            <label for="name">ALT Name: </label>
+            <input type="text" name="name" required value=""><br>
+
+            <label for="description">Description: </label>
+            <input type="text" name="descr"><br>
+
+            <p><button type="submit" name="submit">Upload Image</button></p>
+
+            <p><a href="gallery.html">Show Images</a></p>
+        </form>
+    </div>
+
+</body>
+
+</html>
